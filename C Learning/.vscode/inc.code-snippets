@@ -1,0 +1,54 @@
+// "": {
+// 	"prefix": "",
+// 	"body": [
+//
+// 	],
+// 	"description": ""
+// 	},
+
+{
+  "CFormat": {
+    "prefix": "cboilerPlate",
+    "body": [
+      "#include <stdio.h>",
+      "",
+      "int main(){",
+      "\t$1",
+      "\treturn 0;",
+      "}"
+    ]
+  },
+
+  ///////////////////////////////////////////////////////////
+  "CPrint": {
+    "prefix": "cprint",
+    "body": ["printf(\"$1\\n\");$0"],
+    "description": "C print"
+  },
+
+  ///////////////////////////////////////////////////////////
+
+  "Scan input": {
+    "prefix": "cscan",
+    "body": ["scanf(\"%$1\", &$2);$0"],
+    "description": "C scan input"
+  },
+
+  ///////////////////////////////////////////////////////////
+
+  "TODO": {
+    "prefix": "todo",
+    "body": ["//TODO:$1"],
+    "description": "TODO Extension"
+  },
+
+  ///////////////////////////////////////////////////////////
+
+  "FIXME": {
+    "prefix": "fixme",
+    "body": ["//FIXME:$1"],
+    "description": "TODO Extension"
+  }
+
+  ///////////////////////////////////////////////////////////
+}

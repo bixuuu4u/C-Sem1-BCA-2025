@@ -1,0 +1,1 @@
+//String handeling functions
