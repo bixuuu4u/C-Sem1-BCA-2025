@@ -3,7 +3,7 @@
 #include <stdio.h>
 int main()
 {
-    int number, first, second, third;
+    int number;
     printf("Welcome to Fibonacci Number\n");
     printf("Please enter a number:");
     scanf("%d", &number);

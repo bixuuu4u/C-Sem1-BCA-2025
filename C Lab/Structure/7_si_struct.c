@@ -1,3 +1,4 @@
+//SIMPLE INTREST
 #include <stdio.h>
 struct intrest
 {

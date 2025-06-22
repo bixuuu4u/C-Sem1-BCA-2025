@@ -1,3 +1,4 @@
+//Vowels in sentence
 #include <stdio.h>
 #include <ctype.h>
 const int SIZE = 100;

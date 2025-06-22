@@ -5,9 +5,7 @@
 int fibonacci(int);
 int main()
 {
-
     int num;
-
     printf("Please enter a number:");
     scanf("%d", &num);
     for (int i = 0; i < num; i++)
